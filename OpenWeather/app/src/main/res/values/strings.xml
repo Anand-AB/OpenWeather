@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Open Weather</string>
+    <string name="label_city">City :</string>
+    <string name="label_last_updated">Last Updated :</string>
+    <string name="label_min_weather">Min. Weather</string>
+    <string name="label_max_weather">Max. Weather</string>
+    <string name="label_humidity">Humidity</string>
+    <string name="label_tagline">After rain comes fair weather.</string>
+
+    <!--Error strings-->
+    <string name="error_network">Internet connection not found.</string>
+    <string name="error_permission_denied">Permission Denied</string>
+
+    <string name="text_no_data">No Data Available</string>
+    <string name="text_read">Read</string>
+    <string name="text_save">Save</string>
+    <string name="text_sort_by">Sort By</string>
+    <string name="text_relevance">Relevance</string>
+    <string name="text_saved_first">Saved First</string>
+    <string name="text_saved_last">Saved Last</string>
+    <string name="text_already_saved">The News Already Saved</string>
+
+</resources>

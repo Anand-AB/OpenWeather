@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:gravity="center"
+    app:contentInsetLeft="@dimen/dimen_0"
+    app:contentInsetStart="@dimen/dimen_0"
+    app:elevation="@dimen/_4sdp">
+
+    <LinearLayout
+        android:id="@+id/llHeaderContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <net.anand.openweather.presentation.core.views.QueensParkBoldTextView
+            android:id="@+id/txt_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:ellipsize="end"
+            android:gravity="start"
+            android:maxLines="1"
+            android:textSize="@dimen/_16sdp"
+            android:textStyle="bold"
+            android:visibility="visible"
+            tools:text="@string/app_name" />
+
+    </LinearLayout>
+
+</androidx.appcompat.widget.Toolbar>

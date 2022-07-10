@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "542056686148",
+    "project_id": "drvrloctiongps",
+    "storage_bucket": "drvrloctiongps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:542056686148:android:f3605b0c3544f1c786d211",
+        "android_client_info": {
+          "package_name": "net.anand.openweather"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "542056686148-bcnf5d8p3u9doi5uuhmtmkb3mjm8hi3t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1RIybdnPswNuYcxdK3nCUdfRVa4fAitk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "542056686148-bcnf5d8p3u9doi5uuhmtmkb3mjm8hi3t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
