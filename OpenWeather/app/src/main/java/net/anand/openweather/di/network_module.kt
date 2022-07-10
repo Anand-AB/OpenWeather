@@ -1,9 +1,9 @@
 package net.anand.openweather.di
 
+import com.jakewharton.retrofit2.adapter.kotlin.coroutines.CoroutineCallAdapterFactory
 import net.anand.openweather.BuildConfig
 import net.anand.openweather.domain.network.CommonApiService
 import net.anand.openweather.presentation.utility.AppConstants.Companion.BASE_URL
-import com.jakewharton.retrofit2.adapter.kotlin.coroutines.CoroutineCallAdapterFactory
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import org.koin.dsl.module.module

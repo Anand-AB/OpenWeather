@@ -2,8 +2,6 @@ package net.anand.openweather.presentation.utility
 
 import android.content.Context
 import android.content.SharedPreferences
-import android.os.Build
-import androidx.annotation.RequiresApi
 import net.anand.openweather.MyApplication
 import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter
@@ -36,7 +34,6 @@ class Helper {
             return sharedpreferences?.getString(key, "")
         }
 
-        @RequiresApi(Build.VERSION_CODES.O)
         internal fun getCurrentFormatedTime(): String? {
             val current = LocalDateTime.now()
             val formatter = DateTimeFormatter.ofLocalizedDateTime(FormatStyle.MEDIUM)

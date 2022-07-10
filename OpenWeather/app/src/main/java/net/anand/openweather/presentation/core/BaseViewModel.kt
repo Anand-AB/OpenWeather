@@ -2,11 +2,11 @@ package net.anand.openweather.presentation.core
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import net.anand.openweather.data.Either
-import net.anand.openweather.domain.exceptions.MyException
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
+import net.anand.openweather.data.Either
+import net.anand.openweather.domain.exceptions.MyException
 import kotlin.coroutines.CoroutineContext
 
 /**

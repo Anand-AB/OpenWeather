@@ -32,7 +32,7 @@
                 android:layout_width="@dimen/_230sdp"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Loading..."
+                android:text="@string/text_loading"
                 android:textColor="@color/title_color"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"

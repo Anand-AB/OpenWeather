@@ -28,8 +28,6 @@
         <net.anand.openweather.presentation.core.views.ChivoRegularTextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_above="@+id/tv_label"
-            android:layout_centerHorizontal="true"
             android:layout_gravity="center"
             android:gravity="center"
             android:text="@string/app_name"

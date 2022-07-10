@@ -2,7 +2,6 @@ package net.anand.openweather.presentation.core
 
 import android.content.DialogInterface
 import android.os.Bundle
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import kotlinx.coroutines.CoroutineScope
@@ -105,11 +104,6 @@ abstract class BaseActivity : AppCompatActivity(), CoroutineScope {
             progress?.dismiss()
         }
     }
-
-    fun toast(message: String?) {
-        Toast.makeText(this@BaseActivity, message, Toast.LENGTH_LONG).show()
-    }
-
 
     open fun setOnClickListener() {}
     open fun initiation() {}

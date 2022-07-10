@@ -1,7 +1,5 @@
 package net.anand.openweather.presentation.weatherList
 
-import android.os.Build
-import androidx.annotation.RequiresApi
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import kotlinx.coroutines.launch
@@ -70,7 +68,6 @@ class WeatherListViewModel constructor(private val commonApisRepo: CommonApisRep
         }
     }
 
-    @RequiresApi(Build.VERSION_CODES.O)
     internal fun insertNewsList(weatherData: WeatherListRSP) {
         val currentFormatTime = getCurrentFormatedTime()
         updatedTimeLiveData.postValue(currentFormatTime)

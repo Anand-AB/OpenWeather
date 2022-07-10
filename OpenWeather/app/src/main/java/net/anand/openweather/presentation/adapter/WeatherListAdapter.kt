@@ -2,11 +2,9 @@ package net.anand.openweather.presentation.adapter
 
 import android.annotation.SuppressLint
 import android.content.Context
-import android.os.Build
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.annotation.RequiresApi
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.weather_row_layout.view.*
 import net.anand.openweather.R
@@ -33,7 +31,6 @@ open class WeatherListAdapter
         return weatherList.size
     }
 
-    @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
     override fun onBindViewHolder(holder: ViewHolder, p1: Int) {
         holder.bind(weatherList[p1])
     }
@@ -46,7 +43,6 @@ open class WeatherListAdapter
         }
 
         @SuppressLint("SetTextI18n")
-        @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
         fun bind(data: WeatherListData) {
 
             try {

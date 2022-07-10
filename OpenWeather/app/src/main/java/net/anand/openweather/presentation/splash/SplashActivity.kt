@@ -1,11 +1,13 @@
 package net.anand.openweather.presentation.splash
 
+import android.annotation.SuppressLint
 import android.os.Handler
 import net.anand.openweather.R
 import net.anand.openweather.presentation.core.BaseActivity
 import net.anand.openweather.presentation.utility.UiHelper
 import org.koin.android.viewmodel.ext.android.viewModel
 
+@SuppressLint("CustomSplashScreen")
 class SplashActivity : BaseActivity() {
 
     override fun getLayout(): Int {

@@ -1,7 +1,6 @@
 package net.anand.openweather
 
 import android.app.Application
-import net.anand.openweather.data.models.WeatherListData
 import net.anand.openweather.di.*
 import net.anand.openweather.domain.network.CommonApiService
 import net.anand.openweather.presentation.utility.AppConstants.Companion.BASE_URL
@@ -35,13 +34,6 @@ open class MyApplication : Application() {
             )
         )
 
-//        Prefs.Builder()
-//            .setContext(this)
-//            .setMode(ContextWrapper.MODE_PRIVATE)
-//            .setPrefsName(packageName)
-//            .setUseDefaultSharedPreference(true)
-//            .build()
-
         val httpLoggingInterceptor = HttpLoggingInterceptor()
 
         if (BuildConfig.DEBUG) {
@@ -74,8 +66,6 @@ open class MyApplication : Application() {
     companion object {
         var apiErrorHandler: CommonApiService? = null
         private var mAppInstance: MyApplication? = null
-        var authKey: String? = null
-        private var newsListData: WeatherListData? = null
 
         fun getAppInstance(): MyApplication? {
             return mAppInstance

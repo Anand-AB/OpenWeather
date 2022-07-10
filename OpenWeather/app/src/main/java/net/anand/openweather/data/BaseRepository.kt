@@ -30,7 +30,7 @@ open class BaseRepository {
         }
     }
 
-    suspend fun <R> eitherLocal(service: R): Either<MyException, R> {
+    fun <R> eitherLocal(service: R): Either<MyException, R> {
         return try {
             Either.Right(service)
         } catch (e: Exception) {
